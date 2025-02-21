@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@plugin 'tailwind-scrollbar';
+
 @font-face {
     font-family: 'Inter';
     src: url();
@@ -9,5 +11,5 @@ html{
 }
 
 body{
-    @apply bg-zinc-900 text-zinc-50;
+    @apply bg-zinc-900 text-zinc-50 h-[200vh];
 }
