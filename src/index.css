@@ -1,1 +1,13 @@
 @import "tailwindcss";
+@font-face {
+    font-family: 'Inter';
+    src: url();
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    @apply bg-zinc-900 text-zinc-50;
+}
