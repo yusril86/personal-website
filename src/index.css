@@ -1,5 +1,6 @@
-@import "tailwindcss";
-@plugin 'tailwind-scrollbar';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @font-face {
     font-family: 'Inter';
@@ -15,7 +16,7 @@ body{
 }
 
 .menu-btn{
-    @apply w-10 h-10 grid place-items-center  bg-zinc-50/10 rounded-xl ring-intet ring-1 ring-zinc-50/[0.02]
+    @apply w-10 h-10 grid place-items-center  bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/[0.02]
     backdrop-blur-2xl hover:bg-zinc-50/12 transition-[transform,background-color] active:scale-95;
-    ;
+    
 }
