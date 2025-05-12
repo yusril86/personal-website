@@ -50,6 +50,15 @@ body{
     @apply absolute  bg-zinc-50 rounded-lg -z-10 transition-[top,left] duration-500;
 }
 
+.container{
+    @apply  px-4 mx-auto lg:px-8  xl:max-w-6xl;
+}
+
+.img-box{
+    @apply bg-zinc-50/10 overflow-hidden;
+}
+
+
 /* button */
 .btn{
     @apply max-w-max h-10 flex items-center gap-2 px-4 rounded-xl font-medium  text-sm ring-1 ring-zinc-50/5
