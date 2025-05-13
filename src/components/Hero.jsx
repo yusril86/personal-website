@@ -37,6 +37,7 @@ const Hero = () => {
                         icon="download"
                         classes="btn-primary"
                     />
+                    
                        <ButtonOutline
                         href="#about"
                         label="Scroll Down"
