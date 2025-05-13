@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonPrimary from "./Button";
+import {ButtonPrimary,ButtonOutline} from "./Button";
 
 const Hero = () => {
     return (
@@ -31,8 +31,18 @@ const Hero = () => {
                         Building Scalable Modern Website for Your Business
                     </h2>
                     <div className="flex items-center gap-3">
-                    <ButtonPrimary></ButtonPrimary>
-                        ButtonOutline
+                    <ButtonPrimary
+                        href="#"
+                        label="Download CV"
+                        icon="download"
+                        classes="btn-primary"
+                    />
+                       <ButtonOutline
+                        href="#about"
+                        label="Scroll Down"
+                        icon="arrow_downward"
+
+                    />
                     </div>
                 </div>
 
