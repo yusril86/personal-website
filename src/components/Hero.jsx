@@ -48,9 +48,9 @@ const Hero = () => {
                 </div>
 
                 <div className="hidden lg:block ">
-                    <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t
+                    <figure className="w-full max-w-[445px] ml-auto bg-gradient-to-t
                      from-sky-400 via-25% via-sky-40/40 to-65% rounded-[60px] overflow-hidden">
-                        <img src="/images/logo.svg"
+                        <img src="/images/profile1.png"
                          alt="Yusril Anwar"
                          className=" "
                           width={656}
