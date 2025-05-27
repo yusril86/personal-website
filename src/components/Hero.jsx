@@ -13,7 +13,7 @@ const Hero = () => {
                
                 <div className="flex items-center gap-3">
                     <figure className="img-box w-9 h-9 rounded-lg ">
-                        <img src="/images/avatar-1.jpg" 
+                        <img src="/images/internet.png" 
                         width={40}
                         height={40}                       
                         alt="Yusril Anwar"
@@ -28,7 +28,7 @@ const Hero = () => {
                     </div>
                     <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch]
                      lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-                        Building Scalable Modern Website for Your Business
+                        Yusril Anwar Software engineer
                     </h2>
                     <div className="flex items-center gap-3">
                     <ButtonPrimary
@@ -39,8 +39,8 @@ const Hero = () => {
                     />
                     
                        <ButtonOutline
-                        href="#about"
-                        label="Scroll Down"
+                        href="#contact"
+                        label="Connect with me"
                         icon="arrow_downward"
 
                     />
@@ -48,7 +48,7 @@ const Hero = () => {
                 </div>
 
                 <div className="hidden lg:block ">
-                    <figure className="w-full max-w-[445px] ml-auto bg-gradient-to-t
+                    <figure className="w-full max-w-[400px] ml-auto bg-gradient-to-t
                      from-sky-400 via-25% via-sky-40/40 to-65% rounded-[60px] overflow-hidden">
                         <img src="/images/profile1.png"
                          alt="Yusril Anwar"
