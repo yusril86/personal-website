@@ -4,7 +4,7 @@ import {ButtonPrimary,ButtonOutline} from "./Button";
 const Hero = () => {
     return (
         <section 
-        id="" 
+        id="home" 
         className="pt-28 lg:pt-36"
         >
             <div className="container lg:grid lg:grid-cols-2 items-center lg:gap-10">
@@ -32,10 +32,13 @@ const Hero = () => {
                     </h2>
                     <div className="flex items-center gap-3">
                     <ButtonPrimary
-                        href="#"
+                        href="/document/CV-Yusril-Anwar-2025.pdf"
+                        target="_blank" 
                         label="Download CV"
                         icon="download"
                         classes="btn-primary"
+                        type="application/octet-stream" 
+                        download="cv-yusril.pdf"
                     />
                     
                        <ButtonOutline

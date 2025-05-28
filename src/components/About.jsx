@@ -18,9 +18,9 @@ return (
 
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
             <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-                Welcome! I&apos;m Yusril, a professional web developer with a knack for crafting visually stunning and
-                highly functional websites. Combining creativity and technical expertise. I transform your vision into
-                digital masterpiece that excels in both appearance and performance.
+                Hii,! I&apos;m Yusril, a professional Software engineer . Combining creativity and technical expertise. If you're looking for someone who can bring fresh ideas,
+                 lead teams with enthusiasm, and drive exceptional results, I'm ready to collaborate.
+                 Let's connect and explore opportunities to make a positive impact together
             </p>
 
             <div className="flex flex-wrap items-center  gap-4 md:gap-7 ">
