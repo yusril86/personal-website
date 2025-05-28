@@ -3,40 +3,40 @@ import Projectcard from "./Projectcard";
 
 const works = [
     {
-      imgSrc: '/images/project-1.jpg',
-      title: 'Full stack music app',
-      tags: ['API', 'MVC', 'Development'],
-      projectLink: 'https://musify-5al0.onrender.com/'
+      imgSrc: '/images/image-porto1.png',
+      title: 'Sampan Institute',
+      tags: ['Fullstack', 'MVC', 'Website'],
+      projectLink: 'https://sampaninstitute.com/'
     },
     {
-      imgSrc: '/images/project-2.jpg',
-      title: 'Free stock photo app',
-      tags: ['API', 'SPA'],
-      projectLink: 'https://pixstock-official.vercel.app/'
+      imgSrc: '/images/image-porto2.png',
+      title: 'FK-MPM Parepare',
+      tags: ['API', 'Mobile App', ],
+      projectLink: 'https://play.google.com/store/apps/details?id=com.makkode.fkmpm.parepare&hl=in'
     },
     {
-      imgSrc: '/images/project-3.jpg',
-      title: 'Recipe app',
-      tags: ['Development', 'API'],
-      projectLink: ''
+      imgSrc: '/images/image-porto3.png',
+      title: 'Sipato Kemenag Sidrap',
+      tags: ['Fullstack', 'Website', 'MVC'],
+      projectLink: 'https://sidrap.kemenag.go.id/'
     },
     {
-      imgSrc: '/images/project-4.jpg',
-      title: 'Real state website',
+      imgSrc: '/images/image-porto4.png',
+      title: 'Absensi RSUD Andi Makkasau App',
+      tags: ['Website', 'API', 'Mobile App', 'Fullstack'],
+      projectLink: 'https://play.google.com/store/apps/details?id=pde.rsudandimakkasau.absensiapp'
+    },
+    {
+      imgSrc: '/images/image-porto5.png',
+      title: 'Maunikah Digital Invitation',
+      tags: ['Prouduct','Website', 'Digital Invitation', 'Fullstack'],
+      projectLink: 'https://maunikah.fun/'
+    },
+    {
+      imgSrc: '/images/image-porto6.png',
+      title: 'Teh Poci Thir',
       tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee-org/wealthome'
-    },
-    {
-      imgSrc: '/images/project-5.jpg',
-      title: 'eCommerce website',
-      tags: ['eCommerce', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
-    },
-    {
-      imgSrc: '/images/project-6.jpg',
-      title: 'vCard Personal portfolio',
-      tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+      projectLink: 'https://tehpocithir.store/'
     },
   ];
   

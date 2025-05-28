@@ -12,7 +12,7 @@ const Header = () => {
         md:grid-cols-[1fr,3fr,1fr]">
             <h1>
                 <a href="/" className="logo">
-                <img src="/images/"
+                <img src="/images/internet.png"
                 width={40}
                 height={40}
                 alt="trixsearch Resume Logo" />
@@ -26,7 +26,8 @@ const Header = () => {
             </button>
             <Navbar navOpen={navOpen}/>
         </div>
-        <a href="#contact" className="btn btn-secondary max-md:hidden md:justify-self-end">Contact Me</a>
+        {/* <a href="#contact" className="btn btn-secondary max-md:hidden md:justify-self-end">Contact Me</a> */}
+        <a href="mailto:yusril886@gmail.com" className="btn btn-secondary max-md:hidden md:justify-self-end">Contact Me</a>
         </div>
     </header>
   )

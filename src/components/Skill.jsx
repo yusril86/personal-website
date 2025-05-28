@@ -18,18 +18,23 @@ label: 'JavaScript',
 desc: 'Interaction'
 },
 {
-imgSrc: '/images/nodejs.svg',
-label: 'NodeJS',
-desc: 'Web Server'
+imgSrc: '/images/kotlin.svg',
+label: 'Kotlin',
+desc: 'Mobile App Development'
 },
 {
-imgSrc: '/images/expressjs.svg',
-label: 'ExpressJS',
-desc: 'Node Framework'
+imgSrc: '/images/docker.svg',
+label: 'Docker',
+desc: 'Containerization'
 },
 {
-imgSrc: '/images/mongodb.svg',
-label: 'MongoDB',
+imgSrc: '/images/laravel.svg',
+label: 'Laravel',
+desc: ' Framework'
+},
+{
+imgSrc: '/images/mysql.svg',
+label: 'MySQL',
 desc: 'Database'
 },
 {
@@ -37,11 +42,7 @@ imgSrc: '/images/react.svg',
 label: 'React',
 desc: 'Framework'
 },
-{
-imgSrc: '/images/tailwindcss.svg',
-label: 'TailwindCSS',
-desc: 'User Interface'
-},
+
 ];
 
 
@@ -50,7 +51,7 @@ return (
 <section className="section">
     <div className="container">
 
-        <h2 className="headline-2">Essential Tools I use</h2>
+        <h2 className="headline-2">Tech Stack I use</h2>
         <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">
             Discover the powerful tools and technologies I use to create exceptional, high-performing websites &
             applications.
